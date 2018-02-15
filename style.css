@@ -1,0 +1,34 @@
+body {
+    background-color: coral
+    
+}
+
+.container {
+    font-family: 'Raleway', sans-serif;
+    background-color: cornflowerblue;
+    padding: 20px 10px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.links {
+    background-color: crimson;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin: 2px 15px;
+}
+
+.content {
+    background-color: crimson;
+    padding: 5px 10px;
+    margin: 0 15px;
+    color: white;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color: white
+}
