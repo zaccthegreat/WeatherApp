@@ -1,34 +1,53 @@
-body {
-    background-color: coral
+/* body {
+    background-color: coral;
+    background-image: url(./images/kybg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
     
 }
+*/
+
+html { 
+    background: url(images/kybg-1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .container {
     font-family: 'Raleway', sans-serif;
-    background-color: cornflowerblue;
+    background: rgba(128,128,128,0.7); /* newer browsers */
     padding: 20px 10px;
     width: 550px;
     margin: 0 auto;
+   
 }
 
 .links {
-    background-color: crimson;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway:900', sans-serif;
     padding: 10px;
     margin: 2px 15px;
+    background: rgba(100, 148, 237, 0.514);
+
 }
 
 .content {
-    background-color: crimson;
     padding: 5px 10px;
     margin: 0 15px;
     color: white;
+
 }
 
 a:link {
     color:white;
+    text-decoration: none;
+
 }
 
 a:visited {
-    color: white
+    color: white;
+    text-decoration: none;
+
 }
